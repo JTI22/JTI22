@@ -16,13 +16,13 @@
 
 ## About
 
-Hi, I'm Jayan, a Computer Science and Engineering student at the University of Asia Pacific in Dhaka.
+I'm a Computer Science and Engineering student moving toward a career in aerospace engineering, being interested in both aircraft and space systems, and in using computing to make flight safer and more reliable.
 
-I'm interested in the space where computing meets aerospace. I enjoy building a system end to end, from data and models to firmware and simulation, and then testing it against real data to see where it holds and where it breaks.
+**Goal:** to build a career in aerospace engineering, working on aircraft and space systems.
 
-- **Interests:** machine learning for aerodynamics · safe and explainable AI · UAV safety · embedded systems · space missions
-- **Working on:** my undergraduate thesis on federated and explainable AI, and a learned aerodynamic model with a safety fallback
-- **Heading toward:** a master's in aerospace engineering
+**Interests:** `Aerodynamics` `Flight Dynamics` `Aircraft Systems` `Space Systems` `UAVs` `Lunar Exploration` `Machine Learning for Aerospace` `Simulation`
+
+**Working on:** my undergraduate thesis on federated and explainable AI, and a learned aerodynamic model with a safety fallback.
 
 ## Research
 
