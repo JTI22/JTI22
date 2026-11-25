@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=1400&color=38BDF8&center=true&vCenter=true&width=560&lines=Learning-based+models+for+things+that+fly;Uncertainty-aware+ML+%C2%B7+aerodynamics;Embedded+autonomy+for+UAVs+and+robots" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=1400&color=38BDF8&center=true&vCenter=true&width=560&lines=Machine+learning+for+aerodynamics;Embedded+safety+systems+for+UAVs;Lunar+landing+planning+with+NASA+data" alt="Typing SVG"/>
 
 <a href="https://www.linkedin.com/in/jayan-tasnim-181218375/"><img src="https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn"/></a>
 <a href="mailto:jayantasnim@gmail.com"><img src="https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=38BDF8" alt="Email"/></a>
@@ -16,13 +16,13 @@
 
 ## About
 
-I'm a Computer Science and Engineering student in Dhaka. I like problems where software has to be trusted with something physical — an aircraft, a drone, a robot.
+Hi, I'm Jayan, a Computer Science and Engineering student at the University of Asia Pacific in Dhaka.
 
-My work sits between machine learning and flight: models that know when they are unsure, embedded systems that react in real time, and results that are easy to explain.
+I'm interested in the space where computing meets aerospace. I enjoy building a system end to end, from data and models to firmware and simulation, and then testing it against real data to see where it holds and where it breaks.
 
-- **Focus** — aerodynamic surrogates · uncertainty & safety · UAV autonomy · embedded systems · explainable AI
-- **Now** — federated & explainable AI thesis · a learned aero surrogate with a safety fallback · NASA Space Apps 2026
-- **Next** — a master's in aerospace engineering
+- **Interests:** machine learning for aerodynamics · safe and explainable AI · UAV safety · embedded systems · space missions
+- **Working on:** my undergraduate thesis on federated and explainable AI, and a learned aerodynamic model with a safety fallback
+- **Heading toward:** a master's in aerospace engineering
 
 ## Research
 
@@ -41,60 +41,52 @@ A CNN-BiGRU detector trained with Federated Averaging across nine IoT device cli
 <tr>
 <td colspan="2" valign="top">
 
-### ✈️ [Confidence-Aware Fallback for a Learned Aerodynamic Surrogate](https://github.com/JTI22/confidence-aware-aero-surrogate-fallback)
+### [Confidence-Aware Fallback for a Learned Aerodynamic Surrogate](https://github.com/JTI22/confidence-aware-aero-surrogate-fallback)
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-0B1220?style=flat-square)
 ![Simulink](https://img.shields.io/badge/Simulink-0B1220?style=flat-square)
 ![XFOIL](https://img.shields.io/badge/XFOIL-0B1220?style=flat-square)
 ![Ongoing](https://img.shields.io/badge/ongoing-0B1220?style=flat-square)
 
-A Gaussian Process surrogate of NACA 0012 aerodynamics, trained on XFOIL data. When the model is unsure, a confidence gate hands control to a lookup table. Tested in a closed-loop `6-DOF Simulink` model under gust and trim-runaway faults near stall.
+A Gaussian Process surrogate for NACA 0012 aerodynamics, trained on XFOIL data and built from scratch in MATLAB. When the model is unsure, an uncertainty gate falls back to a lookup table. Tested in a closed-loop `6-DOF Simulink` model with gust and trim-runaway faults near stall.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### [One Degree — Terrain-Aware Lunar Landing Planner](https://github.com/JTI22/One_Degree_Lunar_Planner)
+
+![NASA Space Apps](https://img.shields.io/badge/NASA_Space_Apps-2026-0B1220?style=flat-square)
+![Python](https://img.shields.io/badge/Python-0B1220?style=flat-square&logo=python&logoColor=38BDF8)
+![Streamlit](https://img.shields.io/badge/Streamlit-0B1220?style=flat-square&logo=streamlit&logoColor=38BDF8)
+[![Live app](https://img.shields.io/badge/Live_app-%E2%86%97-0B1220?style=flat-square)](https://onedegreelunarplanner.streamlit.app/)
+
+Sun and Earth visibility planner for lunar south-pole landing sites, built with NASA LOLA terrain and JPL Horizons. Compares sites and landing dates, and replays the model against three real landers: `Odysseus`, `Blue Ghost` and `Athena`.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🛩️ [UAV Collision Advisory](https://github.com/JTI22/uav-collision-advisory-telemetry)
+### [UAV Collision Advisory & Telemetry](https://github.com/JTI22/uav-collision-advisory-telemetry)
 
 ![C](https://img.shields.io/badge/C-0B1220?style=flat-square&logo=c&logoColor=38BDF8)
 ![STM32](https://img.shields.io/badge/STM32-0B1220?style=flat-square&logo=stmicroelectronics&logoColor=38BDF8)
 ![Python](https://img.shields.io/badge/Python-0B1220?style=flat-square&logo=python&logoColor=38BDF8)
 
-`Time-to-collision` advisory and blind-spot detection on a simulated STM32F103 with UAV flight physics, plus a live Python telemetry dashboard.
+Software-in-the-loop UAV safety system on a simulated STM32F103. Estimates `time-to-collision`, detects blind spots and streams live telemetry to a Python ground station.
 
 </td>
 <td width="50%" valign="top">
 
-### 🔥 Flame in Freefall
-
-![NASA](https://img.shields.io/badge/NASA_Space_Apps-2026-0B1220?style=flat-square&logo=nasa&logoColor=38BDF8)
-![ML](https://img.shields.io/badge/Machine_Learning-0B1220?style=flat-square)
-
-An AI dashboard for microgravity combustion data: why flames turn into spheres in orbit, and what it means for spacecraft fire safety. `Team lead`.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 [Medical Delivery Robot](https://github.com/JTI22/Capstone_Code)
+### [Medical Delivery Robot](https://github.com/JTI22/Capstone_Code)
 
 ![ESP32](https://img.shields.io/badge/ESP32-0B1220?style=flat-square&logo=espressif&logoColor=38BDF8)
 ![C++](https://img.shields.io/badge/C++-0B1220?style=flat-square&logo=cplusplus&logoColor=38BDF8)
 ![RFID](https://img.shields.io/badge/RFID-0B1220?style=flat-square)
 
-An ESP32 line-following robot that carries supplies between stations. Ultrasonic sensing stops it before obstacles, and `RFID` tags mark each stop.
-
-</td>
-<td width="50%" valign="top">
-
-### 📡 AeroGuard Sentinel
-
-![Robotics](https://img.shields.io/badge/Robotics-0B1220?style=flat-square)
-![Tracking](https://img.shields.io/badge/Tracking-0B1220?style=flat-square)
-
-A simulated air-defence robot that scans the sky, detects aerial targets and keeps them in track.
+ESP32 4WD line follower with PID control and an ultrasonic obstacle stop. `RFID` tags mark the delivery stations, and a Wi-Fi web page controls each delivery.
 
 </td>
 </tr>
@@ -168,11 +160,11 @@ A simulated air-defence robot that scans the sky, detects aerial targets and kee
 </td>
 <td width="50%" valign="top" align="center">
 
-**Aero & Simulation**
+**Aero, Space & Simulation**
 
 <img src="https://skillicons.dev/icons?i=matlab&theme=dark"/>
 
-`Simulink` `Aerospace Blockset` `XFOIL`
+`Simulink` `XFOIL` `Astropy` `JPL Horizons`
 
 </td>
 </tr>
@@ -183,16 +175,16 @@ A simulated air-defence robot that scans the sky, detects aerial targets and kee
 
 <img src="https://skillicons.dev/icons?i=c,cpp,arduino&theme=dark"/>
 
-`STM32` `ESP32` `PICSimLab` `UART`
+`STM32CubeIDE` `ESP32` `PICSimLab` `UART`
 
 </td>
 <td width="50%" valign="top" align="center">
 
 **Build & Write**
 
-<img src="https://skillicons.dev/icons?i=django,html,css,git,latex&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=java,django,html,css,git,latex&theme=dark"/>
 
-`Streamlit` `Bootstrap` `Packet Tracer`
+`Streamlit` `SQL` `Packet Tracer`
 
 </td>
 </tr>
@@ -204,9 +196,5 @@ A simulated air-defence robot that scans the sky, detects aerial targets and kee
 
 <img height="170" src="https://streak-stats.demolab.com/?user=JTI22&hide_border=true&background=0B1220&stroke=1E293B&ring=38BDF8&fire=F2A65A&currStreakLabel=38BDF8&sideLabels=C9D4E3&currStreakNum=E6EDF6&sideNums=E6EDF6&dates=7D8DA6" alt="Streak"/>
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JTI22&layout=compact&hide_border=true&bg_color=0B1220&title_color=38BDF8&text_color=C9D4E3&exclude_repo=Portfolio,JTPortfolio,MyBooksProjectPractise&langs_count=6" alt="Top languages"/>
-
-<br/><br/>
-
-<sub><i>Software you can trust with things that fly.</i></sub>
 
 </div>
